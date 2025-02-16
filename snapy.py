@@ -9,7 +9,7 @@ def obter_texto(): #Função para o áudio do vídeo a partir da URL fornecida.
 
     ydl_opts = {  # Configurações para o download do áudio.
     'format': 'bestaudio/best',
-    'outtmpl': '/home/dan/Desktop/%(title)s.%(ext)s',  
+    'outtmpl': '/.../.../.../%(title)s.%(ext)s',  #Caminho aonde tu deseja deixar os áudios.
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
